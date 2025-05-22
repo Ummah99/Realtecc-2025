@@ -1,0 +1,38 @@
+/* Import the shared styles */
+@import './Login.css';
+
+/* Additional styles specific to the register page */
+.agree-terms {
+  margin-bottom: 16px;
+}
+
+.agree-terms a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.agree-terms a:hover {
+  text-decoration: underline;
+}
+
+.agree-terms label {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.back-to-home {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.home-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.home-link:hover {
+  color: #4a89dc;
+  text-decoration: underline;
+}

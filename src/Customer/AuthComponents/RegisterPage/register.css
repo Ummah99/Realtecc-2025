@@ -1,0 +1,21 @@
+/* Import the shared styles */
+@import './Login.css';
+
+/* Additional styles specific to the register page */
+.agree-terms {
+  margin-bottom: 16px;
+}
+
+.agree-terms a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.agree-terms a:hover {
+  text-decoration: underline;
+}
+
+.agree-terms label {
+  font-size: 14px;
+  line-height: 1.4;
+}
